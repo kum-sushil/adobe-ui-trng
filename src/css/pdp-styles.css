@@ -1,0 +1,88 @@
+.pagemain .product-detail-page-wrapper{
+    display: flex;
+    margin: 10em;
+    padding: 2em;
+    flex-direction: column;
+}
+.pagemain .product-detail-page-wrapper .product-detail{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagemain .product-detail-page-wrapper .product-detail .product-varitions ul li {
+    list-style: none;
+}
+
+.pagemain .product-detail-page-wrapper .product-detail .product-varitions ul li img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.pagemain .product-detail-page-wrapper .product-info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.5rem;
+}
+
+.pagemain .product-detail-page-wrapper .product-info .product-cart{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+    padding: 10px 0 0 0;
+}
+
+
+
+.pagemain .product-detail-page-wrapper .product-info .product-description{
+    font: var(--unnamed-font-family-muli);
+    color: #172026;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.pagemain .product-detail-page-wrapper .product-info .increment-cart-quantity-btn{
+    background: url('../images/plus-circle.svg') no-repeat 0 0;
+}
+
+.pagemain .product-detail-page-wrapper .product-info .decrement-cart-quantity-btn{
+    background: url('../images/minus-circle.svg') no-repeat 0 0;
+}
+
+.pagemain .product-detail-page-wrapper .product-info .increment-cart-quantity-btn,
+.pagemain .product-detail-page-wrapper .product-info .decrement-cart-quantity-btn{
+    border: 0 none;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.pagemain .product-detail-page-wrapper .product-detail .product-image img{
+    width: 500px;
+    height: 500px;
+}
+
+.pagemain .product-detail-page-wrapper .product-detail-description{
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+    margin: 10px;
+}
+.pagemain .product-detail-page-wrapper .product-detail-description .title{
+    font: var(--unnamed-font-family-muli);
+    font-size: var(--unnamed-font-size-36);
+    color: #172026;
+}
+
+.pagemain .product-detail-page-wrapper .product-detail-description .product_description{
+    font: var(--unnamed-font-family-source-serif-pro);
+    font-size: var(--unnamed-font-size-16);
+    color: #172026;
+    box-sizing: border-box;
+    padding: 10px 0 0 0;
+    margin: 10px 0 0 0;
+}
+

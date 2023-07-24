@@ -1,0 +1,60 @@
+/* .cart-item-list{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 40px 40px 0px;
+} */
+
+.shopping-cart{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 10px;
+}
+
+.shopping-cart .products{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+.shopping-cart .product{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid black;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.shopping-cart .product>div{
+    border: 1px dotted black;
+    padding:1px;
+}
+
+.shopping-cart .product .product-image img{
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;
+    padding: 2px;
+}
+
+.pagemain .shopping-cart .stepper .add-quantity-btn{
+    background: url('../images/plus-circle.svg') no-repeat 0 0;
+}
+
+.pagemain .shopping-cart .stepper .remove-quantity-btn{
+    background: url('../images/minus-circle.svg') no-repeat 0 0;
+}
+
+.pagemain .shopping-cart .stepper .add-quantity-btn,
+.pagemain .shopping-cart .remove-quantity-btn{
+    border: 0 none;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
